@@ -1,7 +1,5 @@
 # NEXERA
  Institute: A. D. Patel Intitute of Technology
-<br>
- Team: NEXERA
  <br>
 Title: AutoDS -  Data Scientist AI Agent
  <br>
