@@ -1,4 +1,4 @@
-# App.py - AutoDS Universal Dashboard Generator
+# App.py - AutoDS Universal Dashboard Generator (FIXED)
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -247,7 +247,7 @@ def intro_page():
         st.markdown("""
         <div class="dashboard-card">
             <h3 style="color: #667eea;">🧹 Agent 1</h3>
-            <h4 style="color: #667eea;>Data Cleaner</h4>
+            <h4 style="color: #667eea;">Data Cleaner</h4>
             <p style="color: black;">Automatically handles missing values, outliers, and fixes data types</p>
             <div class="feature-tag">Missing Values</div>
             <div class="feature-tag">Outliers</div>
@@ -259,7 +259,7 @@ def intro_page():
         st.markdown("""
         <div class="dashboard-card">
             <h3 style="color: #667eea;">🔧 Agent 2</h3>
-            <h4 style="color: #667eea;>Feature Engineer</h4>
+            <h4 style="color: #667eea;">Feature Engineer</h4>
             <p style="color: black;">Creates new features, detects patterns, and optimizes data for ML</p>
             <div class="feature-tag">Time Features</div>
             <div class="feature-tag">Aggregations</div>
@@ -271,7 +271,7 @@ def intro_page():
         st.markdown("""
         <div class="dashboard-card">
             <h3 style="color: #667eea;">📊 Agent 3</h3>
-            <h4 style="color: #667eea;>ML Trainer</h4>
+            <h4 style="color: #667eea;">ML Trainer</h4>
             <p style="color: black;">Trains multiple models and generates accurate predictions</p>
             <div class="feature-tag">Random Forest</div>
             <div class="feature-tag">XGBoost</div>
@@ -284,7 +284,7 @@ def intro_page():
         st.markdown("""
         <div class="dashboard-card" style="text-align: center;">
             <h3 style="color: #667eea;">📈 Agent 4</h3>
-            <h4 style="color: #667eea;>Dashboard Creator</h4>
+            <h4 style="color: #667eea;">Dashboard Creator</h4>
             <p style="color: black;">Generates beautiful PowerBI-ready dashboards from any data</p>
             <div class="feature-tag">PowerBI Export</div>
             <div class="feature-tag">DAX Measures</div>
